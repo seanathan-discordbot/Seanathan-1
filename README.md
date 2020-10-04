@@ -1,0 +1,2 @@
+# Seanathan
+a discord bot
