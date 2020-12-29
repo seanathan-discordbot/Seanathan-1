@@ -35,7 +35,10 @@ async def is_num(ctx,*,returnStatement):
 @client.command()
 async def ping(ctx):
     await ctx.send(ctx.author.mention)
-
+ """
+incorporate into a cog called remind. 
+Also need to test how remind works with multiple reminders
+"""
 @client.command() #work on this tommorow 
 async def remind(ctx,*,returnStatement):
     if returnStatement.isdigit()==False:
