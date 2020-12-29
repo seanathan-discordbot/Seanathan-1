@@ -39,7 +39,7 @@ async def ping(ctx):
 incorporate into a cog called remind. 
 Also need to test how remind works with multiple reminders
 """
-@client.command() #work on this tommorow 
+@client.command() 
 async def remind(ctx,*,returnStatement):
     if returnStatement.isdigit()==False:
         await ctx.send('Please enter a number')
